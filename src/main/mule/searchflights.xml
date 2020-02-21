@@ -153,5 +153,6 @@ output application/json
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="83c0204d-6d6f-4f9f-b6cf-257dae9abd79" message="response of searchFlights...#[payload]" />
+		<logger level="INFO" doc:name="Logger" doc:id="e66f0a15-5c8e-4c06-96c3-c6f4f48aa175" message="the payload is....#[payload]"/>
     </flow>
 </mule>
