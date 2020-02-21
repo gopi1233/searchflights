@@ -1,0 +1,20 @@
+#%RAML 1.0
+title: searchFlights API
+baseUri: http://localhost:8081/api
+types: 
+  AllFlights: !include datatypes/AllFlights.raml
+
+
+
+/searchFlights:
+  get: 
+   queryParameters: 
+    from:
+    to:
+    depatureDate:
+   responses: 
+    200:
+     body: 
+      application/json: 
+       type: AllFlights
+     
